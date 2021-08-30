@@ -1,0 +1,7 @@
+grpc:
+  server:
+    inProcessName: test
+    port: -1
+  client:
+    ratesService:
+      address: in-process:test
